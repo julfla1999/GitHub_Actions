@@ -17,6 +17,9 @@ jobs:
         shell: pwsh
         run: |
           .\installResources.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          path: dist/program.exe
 
 
 
