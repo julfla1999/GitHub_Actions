@@ -12,7 +12,10 @@ jobs:
   test:
     runs-on: windows-latest
     steps:
-      - run: ./installResources.ps1
+      - name: Run script
+        shell: pwsh
+        run: |
+          .\installResources.ps1
 
 
 
