@@ -12,7 +12,7 @@ jobs:
   test:
     runs-on: windows-latest
     steps:
-      - run: .\installResources.ps1
+      - run: ./installResources.ps1
 
 
 
